@@ -1,0 +1,39 @@
+@use "./variable" as *
+
+=rem($px)
+	font-size: calc(($px / 16) * 1rem)
+=mq-min($breakpoint)
+	@media screen and (min-width: $breakpoint)
+		@content
+=mq-min-height($breakpoint)
+	@media screen and (min-height: $breakpoint)
+		@content
+=landscape
+	@media screen and (orientation: landscape)
+		@content
+=portrait
+	@media screen and (orientation: portrait)
+		@content
+=touchDevice
+	@media(any-hover: none) and (pointer: coarse)
+		@content
+=webpBg($selector, $filePath, $fileExtension)
+	#{$noWebpClassName} #{$selector}
+		background-image: url(#{$filePath}_sp.#{$fileExtension})
+		+mq-min($pad)
+			background-image: url(#{$filePath}_pc.#{$fileExtension})
+	#{$webpClassName} #{$selector}
+		background-image: url(#{$filePath}_sp.webp)
+		+mq-min($pad)
+			background-image: url(#{$filePath}_pc.webp)
+=hover
+	@media (any-hover: hover) and (any-pointer: fine)
+		&:hover
+			@content
+=hoverOpacity
+	transition: opacity .2s cubic-bezier(0, 0, .2, 1) !important
+	@media (any-hover: hover) and (any-pointer: fine)
+		&:hover
+			opacity: .75 !important
+=z-index($layer)
+	z-index: #{index($z-index-list, $layer) + 1}
