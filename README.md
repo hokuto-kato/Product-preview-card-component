@@ -14,7 +14,7 @@
 			<img src="https://img.shields.io/static/v1?label=DIFFICULTY&message=NEWBIE&color=6abecd&style=for-the-badge&logo=Frontend+Mentor" alt="DIFFICULTY - NEWBIE">
 		</a>
 	</p>
-	<p><img src="./assets/img_desktop.webp" alt="Product preview card component solution image" style="width: 100%;"></p>
+	<p><img src="./assets/img_desktop-preview.webp" alt="Product preview card component solution image" style="width: 100%;"></p>
 </div>
 
 ## My process
