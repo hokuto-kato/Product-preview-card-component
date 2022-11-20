@@ -1,9 +1,9 @@
-<div style="text-align: center;">
+<div align="center">
 	<a href="#">
 		<img src="./assets/logo.svg" width="80" height="auto" alt="Frontend Mentor Logo">
 	</a>
-	<h1 style="text-align: center;">Product preview card component solution</h1>
-	<p style="text-align: center;">
+	<h1 align="center">Product preview card component solution</h1>
+	<p align="center">
 		This is a solution to the
 		<a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa">Product preview card component challenge on Frontend Mentor</a>. 
 	</p>
@@ -23,7 +23,8 @@
 ### What I learned
 - Determine if the browser can use webp and replace the class
 - Image compression flow using @squoosh/lib
-- CSS Animation, Interaction
+- CSS Interaction
+- GSAP Animation
 - CSS Grid
 - Svg icons
 - Switch favicon between dark and light modes
