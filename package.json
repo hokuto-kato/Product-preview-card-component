@@ -23,6 +23,7 @@
 		"destyle.css": "^4.0.0",
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
+		"gsap": "^3.11.3",
 		"postcss": "^8.4.19",
 		"prettier": "^2.7.1",
 		"sass": "^1.56.1",
