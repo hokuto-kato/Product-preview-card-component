@@ -1,0 +1,16 @@
+@use "../global/variable" as *
+@use "../global/mixin" as *
+
+.btn
+	&__primary
+		background-color: $aquamarine
+		color: $white
+		border-radius: 8px
+		display: flex
+		justify-content: center
+		font-family: Montserrat, sans-serif
+		+rem(14)
+		font-weight: 700
+		transition: background-color .2s ease-out
+		+hover
+			background-color: $aquamarineHover
