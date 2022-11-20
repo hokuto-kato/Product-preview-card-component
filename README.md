@@ -10,7 +10,7 @@
 		<a href="https://product-preview-card-component-black.vercel.app/">
 			<img src="https://img.shields.io/website?down_color=critical&down_message=down&label=vercel&logo=vercel&style=for-the-badge&up_color=brightengreen&up_message=active&url=https://product-preview-card-component-black.vercel.app/">
 		</a>
-		<a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub/product-preview-card-component-7zXZYxU4NF">
+		<a href="https://www.frontendmentor.io/solutions/product-preview-card-component-solution-D1Njuq38Mb">
 			<img src="https://img.shields.io/static/v1?label=DIFFICULTY&message=NEWBIE&color=6abecd&style=for-the-badge&logo=Frontend+Mentor" alt="DIFFICULTY - NEWBIE">
 		</a>
 	</p>
@@ -27,7 +27,6 @@
 - [Prettier](https://prettier.io/) - code formatter
 
 ### What I learned
-- Determine if the browser can use webp and replace the class
 - Image compression flow using @squoosh/lib
 - CSS Interaction
 - GSAP Animation
