@@ -4,10 +4,16 @@
 	</a>
 	<h1 align="center">Product preview card component solution</h1>
 	<p align="center">
-		This is a solution to the
-		<a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa">Product preview card component challenge on Frontend Mentor</a>. 
+		Frontend Mentor Challenge
 	</p>
-	<p><a href="#">View Demo</a></p>
+	<p>
+		<a href="https://product-preview-card-component-black.vercel.app/">
+			<img src="https://img.shields.io/website?down_color=critical&down_message=down&label=vercel&logo=vercel&style=for-the-badge&up_color=brightengreen&up_message=active&url=https://product-preview-card-component-black.vercel.app/">
+		</a>
+		<a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub/product-preview-card-component-7zXZYxU4NF">
+			<img src="https://img.shields.io/static/v1?label=DIFFICULTY&message=NEWBIE&color=6abecd&style=for-the-badge&logo=Frontend+Mentor" alt="DIFFICULTY - NEWBIE">
+		</a>
+	</p>
 	<p><img src="./assets/img_desktop.webp" alt="Product preview card component solution image" style="width: 100%;"></p>
 </div>
 
