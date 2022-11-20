@@ -7,7 +7,7 @@ html(lang='en')
 		title Product preview card component solution
 	body
 		.top__container
-			article.card
+			article.card(data-gsap-fade-in)
 				section.card__section
 					figure.card__figure
 						picture
@@ -18,11 +18,11 @@ html(lang='en')
 							img.card__img(src="/assets/img/img_perfume_pc.jpg" alt="perfume image")
 					.card__content
 						header.card__header
-							p.card__header-caption PERFUME
-							h1.card__header-heading Gabrielle Essence Eau De Parfum
-						p.card__description A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
-						.card__price
+							p.card__header-caption(data-gsap-fade-up) PERFUME
+							h1.card__header-heading(data-gsap-fade-up) Gabrielle Essence Eau De Parfum
+						p.card__description(data-gsap-fade-up) A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
+						.card__price(data-gsap-fade-up)
 							span.card__price-body $149.99
 							span.card__price-supp $169.99
-						button.card__btn.btn__primary(type="button") Add to Cart
+						button.card__btn.btn__primary(type="button" data-gsap-fade-up) Add to Cart
 		script(type='module' src='/assets/js/main.js')
