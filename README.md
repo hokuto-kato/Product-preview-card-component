@@ -29,6 +29,8 @@
 ### What I learned
 - Image compression flow using @squoosh/lib
 - CSS Interaction
+- BEM, CSS Structuring
+- SASS Mixin
 - GSAP Animation
 - CSS Grid
 - Svg icons
