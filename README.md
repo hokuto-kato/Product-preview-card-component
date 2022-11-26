@@ -29,7 +29,7 @@
 ### What I learned
 - Image compression flow using @squoosh/lib
 - CSS Interaction
-- BEM, CSS Design
+- BEM, CSS Structuring
 - SASS Mixin
 - GSAP Animation
 - CSS Grid
