@@ -1,4 +1,6 @@
 @use "destyle.css"
+@use "../global/variable" as *
+@use "../global/mixin" as *
 
 html
 	font-family: 'Roboto','Noto Sans JP', sans-serif
@@ -8,3 +10,5 @@ html
 	&.wf-inactive,
 	&.wf-active
 		visibility: visible
+body
+	background-color: $cream
