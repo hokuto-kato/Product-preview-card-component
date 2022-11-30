@@ -9,7 +9,7 @@
 	</p>
 	<p>
 		<a href="https://product-preview-card-component-black.vercel.app/">View Demo</a> ･
-		<a href="https://www.frontendmentor.io/solutions/product-preview-card-component-solution-D1Njuq38Mb"> View on frontend mentor</a>
+		<a href="https://www.frontendmentor.io/solutions/product-preview-card-component-solution-YyeRn6w5FG"> View on frontend mentor</a>
 	</p>
 	<p><img src="./assets/img_desktop-preview.webp" alt="Product preview card component solution image" style="width: 100%;"></p>
 </div>
